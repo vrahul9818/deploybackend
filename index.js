@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.get('/button', (req, res) => {
   console.log("get");
-  res.send('Hello from the backend rv test!');
+  res.send('Hello from the backend rv !');
 });
 
 app.listen(port, () => {
